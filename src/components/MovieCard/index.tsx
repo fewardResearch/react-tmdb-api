@@ -2,7 +2,7 @@
 import type { FC, ReactElement } from 'react';
 
 // Interface
-import IMovieCard from './index.d';
+import IMovieCard, { IMovie } from './index.d';
 
 // Utils
 import { imagePath } from '../../utils/UI';
@@ -39,3 +39,8 @@ const MovieCard: FC<IMovieCard> = ({
 };
 
 export default MovieCard;
+
+export type {
+    IMovieCard,
+    IMovie
+}
