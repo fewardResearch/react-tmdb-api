@@ -1,5 +1,9 @@
-import dataReducer from '../features/data';
+import searchReducer from '../features/search';
+import popularMoviesReducer from '../features/popularMovies';
 
-export default {
-    data: dataReducer
-}
+const reducers = {
+    search: searchReducer,
+    popularMovies: popularMoviesReducer
+};
+
+export default reducers;
