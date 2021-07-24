@@ -18,13 +18,15 @@ const App: FC = (): ReactElement => {
     <>
       <Header />
 
-      <Router>
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-        </Switch>
-      </Router>
+      <main>
+        <Router>
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+          </Switch>
+        </Router>
+      </main>
 
       <Footer />
     </>
