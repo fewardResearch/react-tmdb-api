@@ -1,4 +1,4 @@
-export interface ISearchMoviesData {
+export interface IMovieData {
     page: number;
     results: {
         poster_path: string | null;
